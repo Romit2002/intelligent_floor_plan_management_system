@@ -1,0 +1,3 @@
+G:\cmake-3.31.0-rc2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\IntelligentFloorPlanManagement.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\IntelligentFloorPlanManagement.dir/objects.a @CMakeFiles\IntelligentFloorPlanManagement.dir\objects1.rsp
+C:\MinGW\bin\c++.exe -Wl,--whole-archive CMakeFiles\IntelligentFloorPlanManagement.dir/objects.a -Wl,--no-whole-archive -o IntelligentFloorPlanManagement.exe -Wl,--out-implib,libIntelligentFloorPlanManagement.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\IntelligentFloorPlanManagement.dir\linkLibs.rsp
